@@ -286,7 +286,7 @@ public class Assignment1Comment {
         }
         //The user inputs enter to continue.
         System.out.println("Hit enter to continue.");
-
+        //
         scanner.nextLine();
     }
 }
