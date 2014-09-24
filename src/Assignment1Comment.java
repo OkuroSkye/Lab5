@@ -276,7 +276,7 @@ public class Assignment1Comment {
             //Print and write the total amount of money paid.
             System.out.printf("\nTotal Payments: %1$-9s\n\n", currencyFormat.format(totalInterest + totalPrinciple));
             fileOutput.printf("\nTotal Payments: %1$-9s", currencyFormat.format(totalInterest + totalPrinciple));
-        //Input, fileIO, and numberformatting exceptions
+        //Input, fileIO, and number formatting exceptions
         } catch(InputMismatchException intFormatError){
             System.out.println("That doesn't seem to be a valid number and the program will close!");
         } catch (FileNotFoundException e) {
