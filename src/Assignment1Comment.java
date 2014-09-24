@@ -273,7 +273,7 @@ public class Assignment1Comment {
                 paymentNum++;
             } while(Math.round(loanAmount)>0);
 
-            //Print and write the total amount of money paid.
+            //Print and write the total amount of money paid toward the loan.
             System.out.printf("\nTotal Payments: %1$-9s\n\n", currencyFormat.format(totalInterest + totalPrinciple));
             fileOutput.printf("\nTotal Payments: %1$-9s", currencyFormat.format(totalInterest + totalPrinciple));
         //Input, fileIO, and number formatting exceptions
